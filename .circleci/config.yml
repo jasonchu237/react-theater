@@ -115,7 +115,7 @@ workflows:
               only:
                 - develop
                 - staging
-                - main      
+                - main
       - deploy-to-aws-s3:
           requires:
             - linting
@@ -133,6 +133,6 @@ workflows:
               only:
                 - develop
                 - staging
-                - main                
+                - main           
 
 
